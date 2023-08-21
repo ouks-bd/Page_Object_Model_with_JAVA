@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_UserManagement">
+        <classes>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_UserManagement.TC_CreateCompanyMakerCheckerUserByOPS_Maker">
+                <methods>
+                    <include name="createComMakerCheckerUserSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_UserManagement.TC_AuthorizedComTransactionMakerCheckerUserByOps_Checker">
+                <methods>
+                    <include name="ApproveMakerUserSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_UserManagement.TC_CreateCompanyApproverUserByOPS_Maker">
+                <methods>
+                    <include name="createComApproverUserSuccess"/>
+
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_UserManagement.TC_AuthorizedComTransactionApproverUserByOps_Checker">
+                <methods>
+                    <include name="ApproveApproverUserSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

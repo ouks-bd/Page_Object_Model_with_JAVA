@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_Universal_Third_Party_Account_Transaction">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker">
+                <methods>
+                    <include name="success_Special_Third_Acc_Transaction_initiate"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker">
+                <methods>
+                    <include name="Authorized_SpAuth_Bulk_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove">
+                <methods>
+                    <include name="approve_SpAuth_ThirdParty_ByApproveSuccess"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TC_CustomDutySinglePayment">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_CustomDutySinglePaymentPage">
+                <methods>
+                    <include name="TC_CustomDutySinglePaymentPageMaker"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_DPDCBillPaymentPageByComChecker">
+                <methods>
+                    <include name="TC_DPDCBillPaymentPageByComChecker"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_CustomDutyBulkPaymentByComApprover">
+                <methods>
+                    <include name="TC_CustomDutyBulkPaymentByComApprover"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_Pay_Order/TC_PO_Issuance_Single_BeneficiaryTranByChecker">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Pay_Order.TC_PO_Issuance_Single_BeneficiaryTranByMaker">
+                <methods>
+                    <include name="initiate_POSingle_TranShouldSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Pay_Order.TC_PO_Issuance_Single_BeneficiaryTranByChecker">
+                <methods>
+                    <include name="Authorize_SinglePO_TranShouldSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Pay_Order.TC_PO_Approve_TransferByComApprover">
+                <methods>
+                    <include name="Approve_Bulk_PO_TranSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

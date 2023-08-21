@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="CorpnetApp(failed)">
+    <classes>
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Many_Many_TransferByComMaker">
+        <methods>
+          <include name="setUp"/>
+          <include name="success_EFT_Many_Many_Transaction_initiate"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Many_Many_TransferByComMaker -->
+    </classes>
+  </test> <!-- CorpnetApp(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

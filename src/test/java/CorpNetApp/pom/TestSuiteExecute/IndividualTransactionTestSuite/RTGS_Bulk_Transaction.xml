@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="RTGS_Bulk_Transaction">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_RTGS_Transaction.TC_RTGS_Bulk_TransferByComMaker">
+                <methods>
+                    <include name="initiate_RTGS_Bulk_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_RTGS_Transaction.TC_RTGS_TransferByComChecker">
+                <methods>
+                    <include name="Authorized_RTGS_Bulk_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_RTGS_Transaction.TC_RTGS_TransferByComApprove">
+                <methods>
+                    <include name="Rtgs_ApproveByApprover"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

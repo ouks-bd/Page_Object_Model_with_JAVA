@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_Payroll_Bulk_Transaction">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Payroll_Transaction.TC_Payroll_Bulk_TransferByComMaker">
+                <methods>
+                    <include name="initiate_Payroll_Bulk_TranSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Payroll_Transaction.TC_Payroll_Bulk_TransferByComChecker">
+                <methods>
+                    <include name="authorized_Bulk_Payroll_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Payroll_Transaction.TC_Payroll_Bulk_Approve_TransferByComApprover">
+                <methods>
+                    <include name="Approve_Bulk_Payroll_TranSuccess"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

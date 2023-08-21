@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_ReceiverManagement">
+        <classes>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_ReceiverManagement.TC_ReceiverSetupByComMaker">
+                <methods>
+                    <include name="TC_ReceiverSetupByComMakerSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_ReceiverManagement.TC_ReceiverSetupByComChecker">
+                <methods>
+                    <include name="TC_ReceiverSetupByComCheckerSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_ReceiverManagement.TC_ReceiverLimitSetupByComMaker">
+                <methods>
+                    <include name="TC_ReceiverLimitSetupByComMaker"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_ReceiverManagement.TC_ReceiverLimitSetupByComChecker">
+                <methods>
+                    <include name="TC_ReceiverLimitSetupByComChecker"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

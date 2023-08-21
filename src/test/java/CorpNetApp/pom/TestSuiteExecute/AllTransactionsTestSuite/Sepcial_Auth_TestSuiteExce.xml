@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Special Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+       <suite-file path="../IndividualTransactionTestSuite/Special_Auth_Own_Account.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/Special_Auth_Third_party_Tran.xml"></suite-file>
+
+    </suite-files>
+</suite>

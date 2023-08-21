@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="IFT_Single_Tran">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_IFTTransaction.TC_IFT_ManyToManyTransferByComMaker">
+                <methods>
+                    <include name="initiateIFT_Many_Many_TranSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_IFTTransaction.TC_IFT_ManyToManyTransferByComChecker">
+                <methods>
+                    <include name="authorizedIFT_Many_Many_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_IFTTransaction.TC_IFT_ManyToManyTransferByComApprove">
+                <methods>
+                    <include name="Approve_IFT_Many_Many_TranSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

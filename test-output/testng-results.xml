@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="220652" started-at="2023-01-25T10:36:40Z" finished-at="2023-01-25T10:40:21Z">
+    <groups>
+    </groups>
+    <test name="TestCases_Universal_Third_Party_Account_Transaction" duration-ms="220652" started-at="2023-01-25T10:36:40Z" finished-at="2023-01-25T10:40:21Z">
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove@5e82df6a]" name="SetUP" is-config="true" duration-ms="20125" started-at="2023-01-25T16:39:20Z" finished-at="2023-01-25T16:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="approve_SpAuth_ThirdParty_ByApproveSuccess(org.testng.ITestContext)[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove@5e82df6a]" name="approve_SpAuth_ThirdParty_ByApproveSuccess" duration-ms="39102" started-at="2023-01-25T16:39:40Z" finished-at="2023-01-25T16:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29852487]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approve_SpAuth_ThirdParty_ByApproveSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove@5e82df6a]" name="tearDown" is-config="true" duration-ms="2169" started-at="2023-01-25T16:40:19Z" finished-at="2023-01-25T16:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Sp_Auth_TransferByComApprove -->
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker@7a69b07]" name="SetUP" is-config="true" duration-ms="31542" started-at="2023-01-25T16:37:44Z" finished-at="2023-01-25T16:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="Authorized_SpAuth_Bulk_TranSuccess(org.testng.ITestContext)[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker@7a69b07]" name="Authorized_SpAuth_Bulk_TranSuccess" duration-ms="60449" started-at="2023-01-25T16:38:16Z" finished-at="2023-01-25T16:39:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29852487]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Authorized_SpAuth_Bulk_TranSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker@7a69b07]" name="tearDown" is-config="true" duration-ms="3523" started-at="2023-01-25T16:39:16Z" finished-at="2023-01-25T16:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_SpAuth_TransferByComChecker -->
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker@1139b2f3]" name="setUp" is-config="true" duration-ms="24001" started-at="2023-01-25T16:36:40Z" finished-at="2023-01-25T16:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="success_Special_Third_Acc_Transaction_initiate(org.testng.ITestContext)[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker@1139b2f3]" name="success_Special_Third_Acc_Transaction_initiate" duration-ms="38166" started-at="2023-01-25T16:37:04Z" finished-at="2023-01-25T16:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29852487]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- success_Special_Third_Acc_Transaction_initiate -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker@1139b2f3]" name="TearDown" is-config="true" duration-ms="1428" started-at="2023-01-25T16:37:43Z" finished-at="2023-01-25T16:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_Universal_Account_Transaction.TC_Third_Party_Special_Auth_Acc_TransferByComMaker -->
+    </test> <!-- TestCases_Universal_Third_Party_Account_Transaction -->
+  </suite> <!-- All Test Suite -->
+  <suite name="All Special Test Suite" duration-ms="1" started-at="2023-01-25T10:40:21Z" finished-at="2023-01-25T10:40:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1" started-at="2023-01-25T10:40:21Z" finished-at="2023-01-25T10:40:21Z">
+    </test> <!-- Test -->
+  </suite> <!-- All Special Test Suite -->
+</testng-results>

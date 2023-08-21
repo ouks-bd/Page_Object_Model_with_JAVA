@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite (2)]">
+  <test name="/testOperation/TestCases_Setting(failed)">
+    <classes>
+      <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_ApproveTokenChargeSetupByChecker">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+          <include name="authorizeTokenChargeSuccess"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_ApproveTokenChargeSetupByChecker -->
+      <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_Token_Charge_SetupByMaker">
+        <methods>
+          <include name="createTokenChargeSetupSuccess"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_Token_Charge_SetupByMaker -->
+    </classes>
+  </test> <!-- /testOperation/TestCases_Setting(failed) -->
+</suite> <!-- Failed suite [All Test Suite (2)] -->

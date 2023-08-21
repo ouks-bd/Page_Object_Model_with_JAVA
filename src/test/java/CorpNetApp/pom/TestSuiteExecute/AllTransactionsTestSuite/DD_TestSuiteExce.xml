@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+
+        <suite-file path="../IndividualTransactionTestSuite/DD_Own_Transaction.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/DD_Third_Party_Transaction.xml"></suite-file>
+
+
+    </suite-files>
+</suite>

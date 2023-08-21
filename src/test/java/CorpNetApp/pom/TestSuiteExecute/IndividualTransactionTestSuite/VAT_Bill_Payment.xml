@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TC_VATBillPayment">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_VATBillPaymentPageByComMaker">
+                <methods>
+                    <include name="TC_VATBillPaymentPageByComMaker"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_DPDCBillPaymentPageByComChecker">
+                <methods>
+                    <include name="TC_DPDCBillPaymentPageByComChecker"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_Bill_Payment.TC_VATBillPaymentPagebyComApprover">
+                <methods>
+                    <include name="TC_VATBillPaymentPagebyComApprover"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

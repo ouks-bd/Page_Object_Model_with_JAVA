@@ -1,0 +1,56 @@
+package CorpNetApp.pom.test.testCompany.TestCases_DD_Transaction;
+
+import CorpNetApp.pom.base.BaseTest;
+import CorpNetApp.pom.page.LoginPage.CompanyUsersLoginPage;
+import CorpNetApp.pom.page.corpnet_Company_MenuPages.company_Maker_MenuPages.DD_Transaction_Page_ByComMaker;
+import CorpNetApp.pom.util.GeneralUtil;
+import org.testng.ITestContext;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+
+public class TC_DD_Own_TransferByComMaker extends BaseTest {
+
+
+    DD_Transaction_Page_ByComMaker dd_transaction_page_byComMaker;
+
+    public TC_DD_Own_TransferByComMaker() {
+        super();
+    }
+
+    @BeforeMethod
+    public void SetUP() {
+        initialization();
+
+        dd_transaction_page_byComMaker = new CompanyUsersLoginPage().CompMCUserLogin(getTranMCUser(), getTranMakerPass()).clickDDOwnTransfer();
+
+    }
+
+    @Test(priority = 0)
+    public void initiate_DD_Own_TranShouldSuccess(ITestContext context) throws InterruptedException {
+
+        dd_transaction_page_byComMaker = dd_transaction_page_byComMaker
+
+                .selectAccountNo(0)
+                .uploadIFTFile()
+                .fillRemarks("DD_Own_Transaction")
+                .clickUploadBtn()
+                .clickConfirmBtn();
+        // IFT1ToManyBulkTransactionPageByComMaker batchId = new IFT1ToManyBulkTransactionPageByComMaker();
+        String DDTransactionBatchRefNo = dd_transaction_page_byComMaker.DDBatchRefNo;
+        context.setAttribute("DDTranBatchRefNo", DDTransactionBatchRefNo);
+        System.out.println("Successfully upload DD Bulk Transaction, DD Transaction Batch Id :- " + DDTransactionBatchRefNo);
+
+        Thread.sleep(1000);
+
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        GeneralUtil.waitForDomStable();
+        driver.quit();
+    }
+
+
+}

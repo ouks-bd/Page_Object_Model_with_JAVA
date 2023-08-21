@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test name="EFT_Single_Many_Tram(failed)">
+    <classes>
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Many_Many_Approve_TransferByComApprover">
+        <methods>
+          <include name="Approve_EFT_Many_Many_TranSuccess"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Many_Many_Approve_TransferByComApprover -->
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Many_Many_TransferByComMaker">
+        <methods>
+          <include name="setUp"/>
+          <include name="success_EFT_Many_Many_Transaction_initiate"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Many_Many_TransferByComMaker -->
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Bulk_Many_Many_TransferByComChecker">
+        <methods>
+          <include name="authorized_EFT_Many_Many_TranSuccess"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Bulk_Many_Many_TransferByComChecker -->
+    </classes>
+  </test> <!-- EFT_Single_Many_Tram(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

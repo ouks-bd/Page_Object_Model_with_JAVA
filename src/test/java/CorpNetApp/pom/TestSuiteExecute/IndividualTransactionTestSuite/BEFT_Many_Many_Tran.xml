@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="EFT_Many_Many_Tram">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Many_Many_TransferByComMaker">
+                <methods>
+                    <include name="success_EFT_Many_Many_Transaction_initiate"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Bulk_Many_Many_TransferByComChecker">
+                <methods>
+                    <include name="authorized_EFT_Many_Many_TranSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Many_Many_Approve_TransferByComApprover">
+                <methods>
+                    <include name="Approve_EFT_Many_Many_TranSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

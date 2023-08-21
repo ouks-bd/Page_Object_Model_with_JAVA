@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_PayrollReport">
+        <classes>
+            <class name="CorpNetApp.pom.test.CompanyTransactionReports.TestCases_PayrollReport.TC_PayrollPendingDownloadSlip">
+                <methods>
+                    <include name="TC_PayrollPendingDownloadSlip"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.CompanyTransactionReports.TestCases_PayrollReport.TC_PendingTransaction">
+                <methods>
+                    <include name="TC_PendingTransaction"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.CompanyTransactionReports.TestCases_PayrollReport.TC_TransactionReport">
+                <methods>
+                    <include name="TC_TransactionReport"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

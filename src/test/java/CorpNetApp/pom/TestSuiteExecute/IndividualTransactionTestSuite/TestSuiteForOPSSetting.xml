@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_Setting">
+        <classes>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_ChargeSetupForMemberWithValidData">
+                <methods>
+                    <include name="TC_ChargeSetupForMemberWithValidData"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_Approve_ChargeSetupByCheckerOps">
+                <methods>
+                    <include name="authorizeChargeSetupSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_CreateCompanyCutOffByMaker">
+                <methods>
+                    <include name="addCompanyCutOffSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_Authorize_CutOffByChecker">
+                <methods>
+                    <include name="authorizeCutOffTimeSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_Token_Charge_SetupByMaker">
+                <methods>
+                    <include name="createTokenChargeSetupSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_Setting.TC_ApproveTokenChargeSetupByChecker">
+                <methods>
+                    <include name="authorizeTokenChargeSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

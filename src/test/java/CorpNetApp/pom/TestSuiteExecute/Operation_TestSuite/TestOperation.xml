@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="IFT_Single_Tran">
+        <classes>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateCompany.TC_1_CreateCompanyWithAllValidData">
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateCompany.TC_2_ApproveCompanyWithValidData">
+            </class>
+        </classes>
+    </test>
+</suite>

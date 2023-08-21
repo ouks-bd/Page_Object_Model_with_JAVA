@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="EFT_Single_Tram">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Single_TransferByComMaker">
+                <methods>
+                    <include name="success_EFT_Single_Transaction_initiate"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_BEFT_Single_TransferByComChecker">
+                <methods>
+                    <include name="authorizedEFT_Single_TranSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_EFT_Transaction.TC_EFT_Approve_Single_TransferByComApprover">
+                <methods>
+                    <include name="Approve_EFT_Single_TranSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

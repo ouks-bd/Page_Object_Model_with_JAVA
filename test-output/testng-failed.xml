@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite (0)]">
+  <test name="RTGS_Bulk_Transaction(failed)">
+    <classes>
+      <class name="CorpNetApp.pom.test.testCompany.TestCases_RTGS_Transaction.TC_RTGS_TransferByComApprove">
+        <methods>
+          <include name="Rtgs_ApproveByApprover" invocation-numbers="0"/>
+          <include name="SetUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CorpNetApp.pom.test.testCompany.TestCases_RTGS_Transaction.TC_RTGS_TransferByComApprove -->
+    </classes>
+  </test> <!-- RTGS_Bulk_Transaction(failed) -->
+</suite> <!-- Failed suite [All Test Suite (0)] -->

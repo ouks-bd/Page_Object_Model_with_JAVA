@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All IFT Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+
+        <suite-file path="../IndividualTransactionTestSuite/VAT_Bill_Payment.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/CustomDuty_Single_Bill_Payment.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/CustomDuty_Bulk_BillPayment.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/DPDC_Bill_Payment.xml"></suite-file>
+
+
+    </suite-files>
+</suite>

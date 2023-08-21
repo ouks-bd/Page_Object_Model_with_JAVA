@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Payroll Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+        <suite-file path="../IndividualTransactionTestSuite/Payroll_Single_Transaction.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/Payroll_Bulk_Transaction.xml"></suite-file>
+
+    </suite-files>
+</suite>

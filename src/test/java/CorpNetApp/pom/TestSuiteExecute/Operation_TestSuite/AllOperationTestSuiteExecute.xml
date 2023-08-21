@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Operation Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+<!--        <suite-file path="../Operation_TestSuite/01_TestSuite_CompanyAndAccountCreateWithAuthorize.xml"></suite-file>-->
+<!--        <suite-file path="../Operation_TestSuite/02_TestSuite_CompanyMemberCreateAndApproveForBothCorpAndPayroll.xml"></suite-file>-->
+<!--        <suite-file path="../Operation_TestSuite/03_TestSuite_CompanySignatorySetupAndApprove.xml"></suite-file>-->
+
+<!--        <suite-file path="../Operation_TestSuite/04_TestSuite_CompanyTCSA_SetupByOps_MakerAndChecker.xml"></suite-file>-->
+        <suite-file path="../Operation_TestSuite/05_TestSuite_CompanyTranUsersSetup.xml"></suite-file>
+        <suite-file path="../Operation_TestSuite/06_TestSuite_CompanySetting.xml"></suite-file>
+
+
+    </suite-files>
+</suite>

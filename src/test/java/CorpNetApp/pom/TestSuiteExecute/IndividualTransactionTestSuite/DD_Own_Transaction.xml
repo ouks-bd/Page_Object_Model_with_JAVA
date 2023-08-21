@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestCases_DD_Transaction_Third">
+        <classes>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_DD_Transaction.TC_DD_Own_TransferByComMaker">
+                <methods>
+                    <include name="initiate_DD_Own_TranShouldSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_DD_Transaction.TC_DD_TransferByComChecker">
+                <methods>
+                    <include name="authorized_DD_Tran_ShouldSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testCompany.TestCases_DD_Transaction.TC_DD_Own_Approve_TransferByComApprover">
+                <methods>
+                    <include name="Approve_Own_EFT_IFT_TranSuccess"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

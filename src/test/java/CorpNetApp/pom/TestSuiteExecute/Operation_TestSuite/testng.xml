@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true"
+          name="E:/Projects/Automation testing/CORPnet Automation/CorpnetApp/CorpnetApp/src/test/java/CorpNetApp/pom/test/testOperation/TestCases_CompanyManagement/TestCases_CreateCompany">
+        <classes>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateCompany.TC_1_CreateCompanyWithAllValidData">
+                <methods>
+                    <include name="addNewCompanyShouldSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateCompany.TC_2_ApproveCompanyWithValidData">
+                <methods>
+                    <include name="unauthorizedCompanyAuthorizeSuccess"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Projects/Automation testing/CORPnet Automation/CorpnetApp/CorpnetApp/src/test/java/CorpNetApp/pom/test/testOperation/TestCases_CompanyManagement/TestCases_CreateAccount">
+        <classes>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateAccount.TC_CreateCompanyAccountWithValidData">
+                <methods>
+                    <include name="showCompanyAccountDetailsAndCreateSuccess"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateAccount.TC_ApproveCompanyAccount">
+                <methods>
+                    <include name="approveCompanyAccountSuccess"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

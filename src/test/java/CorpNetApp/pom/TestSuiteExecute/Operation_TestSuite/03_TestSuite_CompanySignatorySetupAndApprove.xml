@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Create Signatory And Approve">
+        <classes>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateSignatoryRules.TC__CreateSignatoryRulesForCorporateWithValidData">
+                <methods>
+                    <include name="CreateComplexSignatoryRulesSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateSignatoryRules.TC_AuthorizeSignatoryRulesForCorporateWithValidData">
+                <methods>
+                    <include name="AuthorizeComplexSignatoryRulesForCorporate"/>
+                </methods>
+            </class>
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateSignatoryRules.TC__CreateSimpleSignatoryRulesForPayrollWithValidData">
+                <methods>
+                    <include name="CreateSimpleSignatoryRulesSuccess"/>
+                </methods>
+            </class>
+
+            <class name="CorpNetApp.pom.test.testOperation.TestCases_CompanyManagement.TestCases_CreateSignatoryRules.TC_AuthorizeSimpleSignatoryRulesForPayrollWithValidData">
+                <methods>
+                    <include name="AuthorizeSimpleSignatoryRulesForPayroll"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

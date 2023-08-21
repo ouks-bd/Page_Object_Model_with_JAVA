@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All EFT Test Suite">
+    <test verbose="2" preserve-order="true" name="Test">
+    </test>
+
+    <suite-files>
+
+        <suite-file path="../IndividualTransactionTestSuite/IFT_Single_Tranx.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/IFT_1_Many_Tranx.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/IFT_ManyTo_Many_Tranx.xml"></suite-file>
+        <suite-file path="../IndividualTransactionTestSuite/IFT_Payroll_Bulk_Transaction.xml"></suite-file>
+
+
+    </suite-files>
+</suite>
