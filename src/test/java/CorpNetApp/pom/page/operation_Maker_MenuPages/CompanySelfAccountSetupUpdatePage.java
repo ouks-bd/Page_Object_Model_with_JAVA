@@ -30,8 +30,6 @@ public class CompanySelfAccountSetupUpdatePage extends BaseTest {
     public CompanySelfAccountSetupUpdatePage searchComp() throws InterruptedException {
         searchComEl.isDisplayed();
         searchComEl.sendKeys(getCompanyName());
-        //Thread.sleep(10000);
-        // new Select(searchComEl).selectByVisibleText(getCompanyName());
 
         return this;
 
